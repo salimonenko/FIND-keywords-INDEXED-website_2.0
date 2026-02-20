@@ -8,9 +8,9 @@ The program is launched from the file /INDEXER_files_2.0/file_INDEXER.php
 
 First, the NAMES of all files (not prohibited from indexing) are indexed. This creates a file called files.txt.
 Then, the CONTENTS of each file contained in files.txt are indexed. For a large website, this is a rather lengthy process. The result is a "metaphones" directory, containing numerous subdirectories containing "1.txt" files containing indexes of individual words from the site's file contents.
-When using the fuzzy search option, words with different endings will also be searched. For example, for the word "work," a fuzzy search will search for the words "works," "work," "work," and so on. If at least one of these words is found in the search result, the search will be considered successful. In other words, a regular search will only find the word "work." A fuzzy search will match the logical expression:
+When using the fuzzy search option, words with different endings will also be searched. For example, for the word "work," a fuzzy search will search for the words "works," "work," "work," and so on. If at least one of these words is found in the search result, the search will be considered successful. In other words, a USUAL search will only find the word "работа." A fuzzy search will match the logical expression:
 
-(work || work || work || work || ...)
+(работа || работ || работой || работе || ...)
 
 Fuzzy search works ONLY FOR THE RUSSIAN LANGUAGE.
 
