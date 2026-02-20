@@ -27,3 +27,5 @@ Fuzzy search works ONLY FOR THE RUSSIAN LANGUAGE.
 (работа || работ || работой || работе || ...)
 
 Нечеткий поиск работает ТОЛЬКО ДЛЯ РУССКОГО ЯЗЫКА.
+
+Описание приведено здесь: http://4846d.ru/raznoe/moya-sistema-poiska-klyuchevyh-slov.html
